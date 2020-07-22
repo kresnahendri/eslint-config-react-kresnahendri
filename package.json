@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-react-kresnahendri",
+  "version": "1.0.0",
+  "description": "Custom ESLint for react, react-native, or other JS/TS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js tests/*.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kresnahendri/eslint-config-react-kresnahendri"
+  },
+  "author": "kresnahendri",
+  "license": "ISC",
+  "dependencies": {
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-typescript": "^8.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.6",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "eslint": "^7.4.0",
+    "react": "^16.13.1"
+  }
+}
